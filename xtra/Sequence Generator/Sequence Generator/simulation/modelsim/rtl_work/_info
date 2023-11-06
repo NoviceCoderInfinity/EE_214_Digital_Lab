@@ -1,0 +1,226 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Chiransh/OneDrive/Desktop/quartus projects/Sequence Generator/simulation/modelsim
+Edff_reset
+Z1 w1694600375
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/Chiransh/OneDrive/Desktop/quartus projects/Sequence Generator/Flipflops.vhd
+Z5 FC:/Users/Chiransh/OneDrive/Desktop/quartus projects/Sequence Generator/Flipflops.vhd
+l0
+L36
+VcaPK7dT4eD1hn[E==DK@02
+!s100 h>KX4:g8H0;g>Sz@`B[hm2
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1694600722
+!i10b 1
+Z8 !s108 1694600722.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Chiransh/OneDrive/Desktop/quartus projects/Sequence Generator/Flipflops.vhd|
+Z10 !s107 C:/Users/Chiransh/OneDrive/Desktop/quartus projects/Sequence Generator/Flipflops.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehav
+R2
+R3
+DEx4 work 9 dff_reset 0 22 caPK7dT4eD1hn[E==DK@02
+l40
+L39
+V=>L;aFYczZ`PjS1_WX4a32
+!s100 ]K:YaUN:YAgKc7PecJoik2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edff_set
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L16
+Vf32<hbJ>3gMbSMJ?7OG:B2
+!s100 GkLbkOef`[k]OSF>_?bnC1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Abehav
+R2
+R3
+DEx4 work 7 dff_set 0 22 f32<hbJ>3gMbSMJ?7OG:B2
+l20
+L19
+V95<cL>``Pn6Gnkd[3M>Y61
+!s100 zBKISnBPld5P7IgB9e5zm3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edut
+Z13 w1694598147
+R2
+R3
+R0
+Z14 8C:/Users/Chiransh/OneDrive/Desktop/quartus projects/Sequence Generator/DUT.vhdl
+Z15 FC:/Users/Chiransh/OneDrive/Desktop/quartus projects/Sequence Generator/DUT.vhdl
+l0
+L8
+VJ?bme`[eJ1S?MK`^R]k=;2
+!s100 bR0lkKMnI3U4_2`SX3bH22
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/Chiransh/OneDrive/Desktop/quartus projects/Sequence Generator/DUT.vhdl|
+Z17 !s107 C:/Users/Chiransh/OneDrive/Desktop/quartus projects/Sequence Generator/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 J?bme`[eJ1S?MK`^R]k=;2
+l19
+L13
+V8>QeGB;^fBcU1zRb^@hM21
+!s100 5^GkBgU6;iPFbFHIIVZ582
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Pflipflops
+R2
+R3
+R1
+R0
+R4
+R5
+l0
+L4
+VB@`WfR>eJG_]QKPP=Rnj@3
+!s100 Iiln`MCI36[:X7n0=1Gni2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eseq_gen
+Z18 w1694600702
+R2
+R3
+R0
+Z19 8C:/Users/Chiransh/OneDrive/Desktop/quartus projects/Sequence Generator/Seq_Gen.vhd
+Z20 FC:/Users/Chiransh/OneDrive/Desktop/quartus projects/Sequence Generator/Seq_Gen.vhd
+l0
+L6
+V7Geg0zdLBeEVgQX@[O]9`1
+!s100 aTUF2Q?84TECa4M;EQ`OS0
+R6
+31
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/Users/Chiransh/OneDrive/Desktop/quartus projects/Sequence Generator/Seq_Gen.vhd|
+Z22 !s107 C:/Users/Chiransh/OneDrive/Desktop/quartus projects/Sequence Generator/Seq_Gen.vhd|
+!i113 1
+R11
+R12
+Astruct
+R2
+R3
+DEx4 work 7 seq_gen 0 22 7Geg0zdLBeEVgQX@[O]9`1
+l21
+L11
+VVNUHRXTMgQjhU7mdOVd?o3
+!s100 oc_mnjaU4obQIfHO2Ohg[3
+R6
+31
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12
+Etestbench
+Z23 w1694598176
+R3
+R2
+R0
+Z24 8C:/Users/Chiransh/OneDrive/Desktop/quartus projects/Sequence Generator/Testbench.vhdl
+Z25 FC:/Users/Chiransh/OneDrive/Desktop/quartus projects/Sequence Generator/Testbench.vhdl
+l0
+L7
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+Z26 !s110 1694600723
+!i10b 1
+Z27 !s108 1694600723.000000
+Z28 !s90 -reportprogress|300|-93|-work|work|C:/Users/Chiransh/OneDrive/Desktop/quartus projects/Sequence Generator/Testbench.vhdl|
+Z29 !s107 C:/Users/Chiransh/OneDrive/Desktop/quartus projects/Sequence Generator/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+l69
+L9
+Vf3hR06N2RGUODQcza;L>I3
+!s100 dD0YcHLNVK^T<[OGFHoM12
+R6
+31
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R11
+R12

@@ -1,0 +1,694 @@
+|DUT
+input_vector[0] => four_bit_Add_Sub:add_instance.M
+input_vector[1] => four_bit_Add_Sub:add_instance.B0
+input_vector[2] => four_bit_Add_Sub:add_instance.B1
+input_vector[3] => four_bit_Add_Sub:add_instance.B2
+input_vector[4] => four_bit_Add_Sub:add_instance.B3
+input_vector[5] => four_bit_Add_Sub:add_instance.A0
+input_vector[6] => four_bit_Add_Sub:add_instance.A1
+input_vector[7] => four_bit_Add_Sub:add_instance.A2
+input_vector[8] => four_bit_Add_Sub:add_instance.A3
+output_vector[0] <= four_bit_Add_Sub:add_instance.S0
+output_vector[1] <= four_bit_Add_Sub:add_instance.S1
+output_vector[2] <= four_bit_Add_Sub:add_instance.S2
+output_vector[3] <= four_bit_Add_Sub:add_instance.S3
+output_vector[4] <= four_bit_Add_Sub:add_instance.Cout
+
+
+|DUT|four_bit_Add_Sub:add_instance
+A3 => Full_Adder_using_NAND:Full_Add4.X
+A2 => Full_Adder_using_NAND:Full_Add3.X
+A1 => Full_Adder_using_NAND:Full_Add2.X
+A0 => Full_Adder_using_NAND:Full_Add1.X
+B3 => XOR_using_NAND:XOR4.B
+B2 => XOR_using_NAND:XOR3.B
+B1 => XOR_using_NAND:XOR2.B
+B0 => XOR_using_NAND:XOR1.B
+M => XOR_using_NAND:XOR1.A
+M => XOR_using_NAND:XOR2.A
+M => XOR_using_NAND:XOR3.A
+M => XOR_using_NAND:XOR4.A
+M => Full_Adder_using_NAND:Full_Add1.B
+Cout <= Full_Adder_using_NAND:Full_Add4.CARRY
+S3 <= Full_Adder_using_NAND:Full_Add4.SUM
+S2 <= Full_Adder_using_NAND:Full_Add3.SUM
+S1 <= Full_Adder_using_NAND:Full_Add2.SUM
+S0 <= Full_Adder_using_NAND:Full_Add1.SUM
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR1
+A => NAND_2:NAND1.A
+A => NAND_2:NAND3.A
+B => NAND_2:NAND1.B
+B => NAND_2:NAND2.B
+OUTPUT <= NAND_2:NAND4.Y
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR1|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR1|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR1|NAND_2:NAND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR1|NAND_2:NAND4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR2
+A => NAND_2:NAND1.A
+A => NAND_2:NAND3.A
+B => NAND_2:NAND1.B
+B => NAND_2:NAND2.B
+OUTPUT <= NAND_2:NAND4.Y
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR2|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR2|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR2|NAND_2:NAND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR2|NAND_2:NAND4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR3
+A => NAND_2:NAND1.A
+A => NAND_2:NAND3.A
+B => NAND_2:NAND1.B
+B => NAND_2:NAND2.B
+OUTPUT <= NAND_2:NAND4.Y
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR3|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR3|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR3|NAND_2:NAND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR3|NAND_2:NAND4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR4
+A => NAND_2:NAND1.A
+A => NAND_2:NAND3.A
+B => NAND_2:NAND1.B
+B => NAND_2:NAND2.B
+OUTPUT <= NAND_2:NAND4.Y
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR4|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR4|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR4|NAND_2:NAND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|XOR_using_NAND:XOR4|NAND_2:NAND4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1
+X => Half_Adder_using_NAND:HA1.A
+Y => Half_Adder_using_NAND:HA1.B
+B => Half_Adder_using_NAND:HA2.B
+CARRY <= NAND_2:NAND3.Y
+SUM <= Half_Adder_using_NAND:HA2.Sum
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1|Half_Adder_using_NAND:HA1
+A => NAND_2:NAND1.A
+A => XOR_using_NAND:XOR1.A
+B => NAND_2:NAND1.B
+B => XOR_using_NAND:XOR1.B
+Carry <= NAND_2:NAND2.Y
+Sum <= XOR_using_NAND:XOR1.OUTPUT
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1|Half_Adder_using_NAND:HA1|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1|Half_Adder_using_NAND:HA1|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1
+A => NAND_2:NAND1.A
+A => NAND_2:NAND3.A
+B => NAND_2:NAND1.B
+B => NAND_2:NAND2.B
+OUTPUT <= NAND_2:NAND4.Y
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1|NAND_2:NAND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1|NAND_2:NAND4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1|Half_Adder_using_NAND:HA2
+A => NAND_2:NAND1.A
+A => XOR_using_NAND:XOR1.A
+B => NAND_2:NAND1.B
+B => XOR_using_NAND:XOR1.B
+Carry <= NAND_2:NAND2.Y
+Sum <= XOR_using_NAND:XOR1.OUTPUT
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1|Half_Adder_using_NAND:HA2|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1|Half_Adder_using_NAND:HA2|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1
+A => NAND_2:NAND1.A
+A => NAND_2:NAND3.A
+B => NAND_2:NAND1.B
+B => NAND_2:NAND2.B
+OUTPUT <= NAND_2:NAND4.Y
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1|NAND_2:NAND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1|NAND_2:NAND4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add1|NAND_2:NAND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2
+X => Half_Adder_using_NAND:HA1.A
+Y => Half_Adder_using_NAND:HA1.B
+B => Half_Adder_using_NAND:HA2.B
+CARRY <= NAND_2:NAND3.Y
+SUM <= Half_Adder_using_NAND:HA2.Sum
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2|Half_Adder_using_NAND:HA1
+A => NAND_2:NAND1.A
+A => XOR_using_NAND:XOR1.A
+B => NAND_2:NAND1.B
+B => XOR_using_NAND:XOR1.B
+Carry <= NAND_2:NAND2.Y
+Sum <= XOR_using_NAND:XOR1.OUTPUT
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2|Half_Adder_using_NAND:HA1|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2|Half_Adder_using_NAND:HA1|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1
+A => NAND_2:NAND1.A
+A => NAND_2:NAND3.A
+B => NAND_2:NAND1.B
+B => NAND_2:NAND2.B
+OUTPUT <= NAND_2:NAND4.Y
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1|NAND_2:NAND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1|NAND_2:NAND4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2|Half_Adder_using_NAND:HA2
+A => NAND_2:NAND1.A
+A => XOR_using_NAND:XOR1.A
+B => NAND_2:NAND1.B
+B => XOR_using_NAND:XOR1.B
+Carry <= NAND_2:NAND2.Y
+Sum <= XOR_using_NAND:XOR1.OUTPUT
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2|Half_Adder_using_NAND:HA2|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2|Half_Adder_using_NAND:HA2|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1
+A => NAND_2:NAND1.A
+A => NAND_2:NAND3.A
+B => NAND_2:NAND1.B
+B => NAND_2:NAND2.B
+OUTPUT <= NAND_2:NAND4.Y
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1|NAND_2:NAND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1|NAND_2:NAND4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add2|NAND_2:NAND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3
+X => Half_Adder_using_NAND:HA1.A
+Y => Half_Adder_using_NAND:HA1.B
+B => Half_Adder_using_NAND:HA2.B
+CARRY <= NAND_2:NAND3.Y
+SUM <= Half_Adder_using_NAND:HA2.Sum
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3|Half_Adder_using_NAND:HA1
+A => NAND_2:NAND1.A
+A => XOR_using_NAND:XOR1.A
+B => NAND_2:NAND1.B
+B => XOR_using_NAND:XOR1.B
+Carry <= NAND_2:NAND2.Y
+Sum <= XOR_using_NAND:XOR1.OUTPUT
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3|Half_Adder_using_NAND:HA1|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3|Half_Adder_using_NAND:HA1|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1
+A => NAND_2:NAND1.A
+A => NAND_2:NAND3.A
+B => NAND_2:NAND1.B
+B => NAND_2:NAND2.B
+OUTPUT <= NAND_2:NAND4.Y
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1|NAND_2:NAND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1|NAND_2:NAND4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3|Half_Adder_using_NAND:HA2
+A => NAND_2:NAND1.A
+A => XOR_using_NAND:XOR1.A
+B => NAND_2:NAND1.B
+B => XOR_using_NAND:XOR1.B
+Carry <= NAND_2:NAND2.Y
+Sum <= XOR_using_NAND:XOR1.OUTPUT
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3|Half_Adder_using_NAND:HA2|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3|Half_Adder_using_NAND:HA2|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1
+A => NAND_2:NAND1.A
+A => NAND_2:NAND3.A
+B => NAND_2:NAND1.B
+B => NAND_2:NAND2.B
+OUTPUT <= NAND_2:NAND4.Y
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1|NAND_2:NAND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1|NAND_2:NAND4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add3|NAND_2:NAND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4
+X => Half_Adder_using_NAND:HA1.A
+Y => Half_Adder_using_NAND:HA1.B
+B => Half_Adder_using_NAND:HA2.B
+CARRY <= NAND_2:NAND3.Y
+SUM <= Half_Adder_using_NAND:HA2.Sum
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4|Half_Adder_using_NAND:HA1
+A => NAND_2:NAND1.A
+A => XOR_using_NAND:XOR1.A
+B => NAND_2:NAND1.B
+B => XOR_using_NAND:XOR1.B
+Carry <= NAND_2:NAND2.Y
+Sum <= XOR_using_NAND:XOR1.OUTPUT
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4|Half_Adder_using_NAND:HA1|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4|Half_Adder_using_NAND:HA1|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1
+A => NAND_2:NAND1.A
+A => NAND_2:NAND3.A
+B => NAND_2:NAND1.B
+B => NAND_2:NAND2.B
+OUTPUT <= NAND_2:NAND4.Y
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1|NAND_2:NAND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4|Half_Adder_using_NAND:HA1|XOR_using_NAND:XOR1|NAND_2:NAND4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4|Half_Adder_using_NAND:HA2
+A => NAND_2:NAND1.A
+A => XOR_using_NAND:XOR1.A
+B => NAND_2:NAND1.B
+B => XOR_using_NAND:XOR1.B
+Carry <= NAND_2:NAND2.Y
+Sum <= XOR_using_NAND:XOR1.OUTPUT
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4|Half_Adder_using_NAND:HA2|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4|Half_Adder_using_NAND:HA2|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1
+A => NAND_2:NAND1.A
+A => NAND_2:NAND3.A
+B => NAND_2:NAND1.B
+B => NAND_2:NAND2.B
+OUTPUT <= NAND_2:NAND4.Y
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1|NAND_2:NAND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4|Half_Adder_using_NAND:HA2|XOR_using_NAND:XOR1|NAND_2:NAND4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4|NAND_2:NAND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4|NAND_2:NAND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_bit_Add_Sub:add_instance|Full_Adder_using_NAND:Full_Add4|NAND_2:NAND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

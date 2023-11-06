@@ -1,0 +1,67 @@
+|DUT
+input_vector[0] => Half_Sub_with_NOR:add_instance.B
+input_vector[1] => Half_Sub_with_NOR:add_instance.A
+output_vector[0] <= Half_Sub_with_NOR:add_instance.BORROW
+output_vector[1] <= Half_Sub_with_NOR:add_instance.DIFF
+
+
+|DUT|Half_Sub_with_NOR:add_instance
+A => NOR_2:NOR1.A
+A => NOR_2:NOR2.A
+A => XOR_with_NOR:XOR1.A
+B => NOR_2:NOR1.B
+B => XOR_with_NOR:XOR1.B
+DIFF <= XOR_with_NOR:XOR1.OUTPUT
+BORROW <= NOR_2:NOR2.Y
+
+
+|DUT|Half_Sub_with_NOR:add_instance|NOR_2:NOR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Half_Sub_with_NOR:add_instance|NOR_2:NOR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Half_Sub_with_NOR:add_instance|XOR_with_NOR:XOR1
+A => NOR_2:NOR1.A
+A => NOR_2:NOR2.A
+B => NOR_2:NOR1.B
+B => NOR_2:NOR3.B
+OUTPUT <= NOR_2:NOR5.Y
+
+
+|DUT|Half_Sub_with_NOR:add_instance|XOR_with_NOR:XOR1|NOR_2:NOR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Half_Sub_with_NOR:add_instance|XOR_with_NOR:XOR1|NOR_2:NOR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Half_Sub_with_NOR:add_instance|XOR_with_NOR:XOR1|NOR_2:NOR3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Half_Sub_with_NOR:add_instance|XOR_with_NOR:XOR1|NOR_2:NOR4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Half_Sub_with_NOR:add_instance|XOR_with_NOR:XOR1|NOR_2:NOR5
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

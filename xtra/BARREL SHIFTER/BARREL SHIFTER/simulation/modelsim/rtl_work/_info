@@ -1,0 +1,585 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/simulation/modelsim
+Eand_2
+Z1 w1691744784
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/Gates.vhdl
+Z5 FC:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/Gates.vhdl
+l0
+L57
+VW2QdRhzH^gh`1Z4bifmBf3
+!s100 <1nD4fLK5FZ?LMSb4GDe>3
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1693484342
+!i10b 1
+Z8 !s108 1693484342.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/Gates.vhdl|
+Z10 !s107 C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/Gates.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aequations
+R2
+R3
+DEx4 work 5 and_2 0 22 W2QdRhzH^gh`1Z4bifmBf3
+l62
+L61
+VnDT8d]LGAGAW:`<`mSSSg3
+!s100 HhM:H^IAkB>a2X9?`<@_k0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ebarrelshifter
+Z13 w1693484211
+Z14 DPx4 work 5 gates 0 22 NcY4A7TbR^WLRT`2c:]N[1
+R2
+R3
+R0
+Z15 8C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/BARRELSHIFTER.vhd
+Z16 FC:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/BARRELSHIFTER.vhd
+l0
+L6
+VTb@mA^Mcj<IAgI>GM>?Ub2
+!s100 GSJf^[QbjbCK6Gl>]gn123
+R6
+31
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/BARRELSHIFTER.vhd|
+Z18 !s107 C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/BARRELSHIFTER.vhd|
+!i113 1
+R11
+R12
+Astruct
+R14
+R2
+R3
+DEx4 work 13 barrelshifter 0 22 Tb@mA^Mcj<IAgI>GM>?Ub2
+l23
+L10
+V:z;;Y@S[bUMMQQ?^TejMF3
+!s100 LH?mOalT4dH2g3=VTl`c91
+R6
+31
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Ebitinverter
+Z19 w1693484321
+R14
+R2
+R3
+R0
+Z20 8C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/BITINVERTER.vhd
+Z21 FC:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/BITINVERTER.vhd
+l0
+L6
+VNB<Kz<NVmVYd_GcXcDYL`2
+!s100 TO?[X4cN63@N0QT:0[N5P0
+R6
+31
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/BITINVERTER.vhd|
+Z23 !s107 C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/BITINVERTER.vhd|
+!i113 1
+R11
+R12
+Astruct
+R14
+R2
+R3
+DEx4 work 11 bitinverter 0 22 NB<Kz<NVmVYd_GcXcDYL`2
+l15
+L11
+VYUfD0oZNOh^:G:i`b9M=i1
+!s100 l<m6bXR6HUU1NO>Xz]HBI1
+R6
+31
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Edut
+Z24 w1693482174
+R2
+R3
+R0
+Z25 8C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/DUT.vhdl
+Z26 FC:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/DUT.vhdl
+l0
+L7
+VMlY7?^jKLT@:IDYn@IUV80
+!s100 7:1I=Y_<d:o931>MI1U_j0
+R6
+31
+R7
+!i10b 1
+R8
+Z27 !s90 -reportprogress|300|-93|-work|work|C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/DUT.vhdl|
+Z28 !s107 C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 MlY7?^jKLT@:IDYn@IUV80
+l16
+L12
+Vf_>gU[Y5ZXS]]l9OJf<5Z3
+!s100 kYC[QeXKGa<oPQdkbfM=Q2
+R6
+31
+R7
+!i10b 1
+R8
+R27
+R28
+!i113 1
+R11
+R12
+Pgates
+R2
+R3
+R1
+R0
+R4
+R5
+l0
+L7
+VNcY4A7TbR^WLRT`2c:]N[1
+!s100 Dc>f1MeC:9iI_HnNzJ;KT1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehalf_adder
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L124
+VIZiX8mi96cJ??CnPO^U<C3
+!s100 U;nQkfQTnI7V?fejYIM<g2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 10 half_adder 0 22 IZiX8mi96cJ??CnPO^U<C3
+l129
+L128
+VCD;QIVbkQ<kd@U[I6UILl1
+!s100 E9g6H`e<YSE@nSQ7XJJ0D0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Einverter
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L45
+V^STYmNzH_F58ZVT>FF?cU2
+!s100 S3joTbdXW90XOjU4i1V^60
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 8 inverter 0 22 ^STYmNzH_F58ZVT>FF?cU2
+l50
+L49
+VY38KWB:XEkc0^3YzW57dj2
+!s100 YS6CiXJRJ@EE5??nNB03h1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Emux
+Z29 w1693474387
+R14
+R2
+R3
+R0
+Z30 8C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/MUX.vhd
+Z31 FC:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/MUX.vhd
+l0
+L6
+VZHlbQ5>c19]eoNnA]8CCd3
+!s100 3>GBfh=ZN`A5?>ld;OGoU2
+R6
+31
+R7
+!i10b 1
+R8
+Z32 !s90 -reportprogress|300|-93|-work|work|C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/MUX.vhd|
+Z33 !s107 C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/MUX.vhd|
+!i113 1
+R11
+R12
+Astruct
+R14
+R2
+R3
+DEx4 work 3 mux 0 22 ZHlbQ5>c19]eoNnA]8CCd3
+l12
+L10
+V0Y<O]Z=F2CNkd?TSZjbHb1
+!s100 SY=B]<mjJYmUPhoGD=Q?g0
+R6
+31
+R7
+!i10b 1
+R8
+R32
+R33
+!i113 1
+R11
+R12
+Enand_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L68
+V7Q=aZ>7Mzize[[IfQRQ;`2
+!s100 bRA[c>EJKJWNgCR8ghUC72
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 nand_2 0 22 7Q=aZ>7Mzize[[IfQRQ;`2
+l73
+L72
+V?4CWin9:[TT0?g`jLS0E12
+!s100 I_RPhB=oe82f_Rij[[8JF2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L90
+V3?]TGiHba`>]BD;kULm?^3
+!s100 edYUJ4gTm_U:i]N@4Q=Gg3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 nor_2 0 22 3?]TGiHba`>]BD;kULm?^3
+l95
+L94
+VNFd;eVo`>0To8@;Oh4diC1
+!s100 ESBi5;Q?X6mLo`Q3JWZ4Q0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enright
+Z34 w1693475992
+R14
+R2
+R3
+R0
+Z35 8C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/NRIGHT.vhd
+Z36 FC:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/NRIGHT.vhd
+l0
+L8
+VLcodM7`@FZa=RAF0VLZGI0
+!s100 dX:bBmB4foZnWYMi7F]zb3
+R6
+31
+R7
+!i10b 1
+R8
+Z37 !s90 -reportprogress|300|-93|-work|work|C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/NRIGHT.vhd|
+Z38 !s107 C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/NRIGHT.vhd|
+!i113 1
+R11
+R12
+Astruct
+R14
+R2
+R3
+DEx4 work 6 nright 0 22 LcodM7`@FZa=RAF0VLZGI0
+l18
+L13
+VK^?ZIJS38^RZMI@PoDEhe3
+!s100 Li6cmVHMiLg<Bk<HE>kSf2
+R6
+31
+R7
+!i10b 1
+R8
+R37
+R38
+!i113 1
+R11
+R12
+Eor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L79
+V>IC]i[S3fUX<m=i^H@9eA0
+!s100 Be23a45mg=gMiVXM<6Peg0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 4 or_2 0 22 >IC]i[S3fUX<m=i^H@9eA0
+l84
+L83
+VATF[^b3mj8cbo9?98=TRF0
+!s100 8JcIMFHmJzkaC?5jW]DnS3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etestbench
+Z39 w1693482360
+R3
+R2
+R0
+Z40 8C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/Testbench.vhdl
+Z41 FC:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/Testbench.vhdl
+l0
+L7
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+Z42 !s110 1693484343
+!i10b 1
+Z43 !s108 1693484343.000000
+Z44 !s90 -reportprogress|300|-93|-work|work|C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/Testbench.vhdl|
+Z45 !s107 C:/Users/Bhuvansh Goyal/Desktop/EE214 LAB WORK/PRACTICE/BARREL SHIFTER/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+l69
+L9
+VmVNUnzSCJdS?:T^I;kP]I3
+!s100 eg3g:cXWNY_J6k^3M@Ph52
+R6
+31
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 1
+R11
+R12
+Exnor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L113
+VYmZa`=[Sj]6Zh9_O7]F;L0
+!s100 SMA^OIVGhoiKW^3FaJ8oW3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 xnor_2 0 22 YmZa`=[Sj]6Zh9_O7]F;L0
+l118
+L117
+VAJO?a^^jGBIX`G]K^jl@P2
+!s100 =aKk4IJ>H;6]KzcaGm^Mn0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Exor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L102
+VDUd5fH`?6?dZ[>AnHc54;2
+!s100 h::V4HH0c4?lKoYnW6M?E3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 xor_2 0 22 DUd5fH`?6?dZ[>AnHc54;2
+l107
+L106
+VT`Lnd3[S1KOT?Q^d?zomG2
+!s100 85OK8@mo8d3=fmz<5BnRf2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

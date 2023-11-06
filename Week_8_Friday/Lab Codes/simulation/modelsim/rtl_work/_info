@@ -1,0 +1,131 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Week_8_Friday/Lab Codes/simulation/modelsim
+Eclock
+Z1 w1697198182
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Week_8_Friday/Lab Codes/CLOCK.vhd
+Z6 FC:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Week_8_Friday/Lab Codes/CLOCK.vhd
+l0
+L5
+VO1A04TaJe=aTJz=m^DF4_2
+!s100 J=;F`S?knmn^mlGW8hgCM1
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1697198203
+!i10b 1
+Z9 !s108 1697198203.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Week_8_Friday/Lab Codes/CLOCK.vhd|
+Z11 !s107 C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Week_8_Friday/Lab Codes/CLOCK.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Astruct
+R2
+R3
+R4
+DEx4 work 5 clock 0 22 O1A04TaJe=aTJz=m^DF4_2
+l14
+L10
+VzD:;Q@cnee?U3[FhU9Bzc0
+!s100 2K_jHZ4AE:@h]L4@5]H=33
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eled_sw
+Z14 w1697198176
+R2
+R3
+R4
+R0
+Z15 8C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Week_8_Friday/Lab Codes/Led_Sw.vhd
+Z16 FC:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Week_8_Friday/Lab Codes/Led_Sw.vhd
+l0
+L5
+VCnVde1gN_a9UN0^d3aX4;0
+!s100 00XR?ZmGQORMIhQ]Bc<gF3
+R7
+31
+Z17 !s110 1697198202
+!i10b 1
+Z18 !s108 1697198202.000000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Week_8_Friday/Lab Codes/Led_Sw.vhd|
+Z20 !s107 C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Week_8_Friday/Lab Codes/Led_Sw.vhd|
+!i113 1
+R12
+R13
+Astr
+R2
+R3
+R4
+DEx4 work 6 led_sw 0 22 CnVde1gN_a9UN0^d3aX4;0
+l27
+L10
+V3=S3dC>K9g43;>d`0N?7?0
+!s100 VnP6M2WROi=LCYG32DO>B3
+R7
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Etestbench_led
+Z21 w1697197779
+R4
+R3
+R0
+Z22 8C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Week_8_Friday/Lab Codes/Testbench_Led.vhd
+Z23 FC:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Week_8_Friday/Lab Codes/Testbench_Led.vhd
+l0
+L7
+VlFa_I]T@:H3mR]Y]BfD:H3
+!s100 CNnjohLmI2=VbV0zOz15D3
+R7
+31
+R8
+!i10b 1
+R9
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Week_8_Friday/Lab Codes/Testbench_Led.vhd|
+Z25 !s107 C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Week_8_Friday/Lab Codes/Testbench_Led.vhd|
+!i113 1
+R12
+R13
+Astruct
+R4
+R3
+DEx4 work 13 testbench_led 0 22 lFa_I]T@:H3mR]Y]BfD:H3
+l23
+L10
+VbA=h]P<AT:8I3Ki_@J6eP0
+!s100 >fO_`fCoa_[LEH58D?VoU2
+R7
+31
+R8
+!i10b 1
+R9
+R24
+R25
+!i113 1
+R12
+R13

@@ -1,0 +1,31 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+library work;
+use work.gates.all;
+entity compare is
+    word1,word2 : in STD_LOGIC_VECTOR(13 downto 0);
+    sw1,sw2 : in STD_LOGIC_VECTOR(2 downto 0);
+    u0, u1 :in STD_LOGIC_VECTOR(0 downto 0):='1';
+end compare;
+architecture comparator of compare is 
+    if u0='1' and u1='1' then
+    if word1(4 downto 0)=word2(4 downto 0) then
+        if sw1 < sw2 then
+            u1=0;
+        else u0=0;
+        end if;
+    else
+        if word1(4 downto 0) < word2(4 downto 0) then
+                u1 =0;
+            else u0 =0;
+            end if;
+        end if;
+    else if u0 /= u1 then
+        if u0 = 1 then
+            u1=0;
+        else u0=0;
+        end if;
+    else u1=0
+    end if;
+end architecture;

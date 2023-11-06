@@ -1,0 +1,46 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use IEEE.NUMERIC_STD.ALL;
+
+
+entity compute_module is
+ port(ew : in std_logic_vector(2 downto 0);
+      sw : in std_logic_vector(8 downto 0);
+		dw : in std_logic_vector(8 downto 0);
+		u : in std_logic;
+		i: in std_logic;
+		j: in std_logic;
+		
+      fw : out std_logic_vector(8 downto 0);
+		u_out : out std_logic;
+		i_out: out std_logic;
+		j_out: out std_logic);
+end entity compute_module;
+
+architecture struct of compute_module is
+ variable ew_dec,sw_dec, dw_dec : integer;
+begin
+ ew_dec := to_integer(unsigned(ew));
+ sw_dec := to_integer(unsigned(sw));
+ dw_dec := to_integer(unsigned(dw));
+ 
+ if(ew_dec + sw_dec < dw_dec) generate
+  begin
+   fw <= std_logic_vector(to_unsigned(ew_dec + sw_dec, 9));
+	u_out <= u;
+ end generate;
+ 
+ if(ew_dec + sw_dec >= dw_dec) generate
+  begin
+   fw <= std_logic_vector(to_unsigned(dw_dec, 9));
+	u_out <= '0';
+ end generate;
+ 
+ i_out <= i;
+ j_out <= j;
+ 
+end architecture struct;
+ 
+
+
+ 

@@ -1,0 +1,53 @@
+|DUT
+input_vector[0] => four_to_two_encoder:add_instance.E_n
+input_vector[1] => four_to_two_encoder:add_instance.D
+input_vector[2] => four_to_two_encoder:add_instance.C
+input_vector[3] => four_to_two_encoder:add_instance.B
+input_vector[4] => four_to_two_encoder:add_instance.A
+output_vector[0] <= four_to_two_encoder:add_instance.Y0
+output_vector[1] <= four_to_two_encoder:add_instance.Y1
+
+
+|DUT|four_to_two_encoder:add_instance
+A => XOR_2:gate_XOR_1.A
+A => XOR_2:gate_XOR_2.A
+B => XOR_2:gate_XOR_1.B
+B => FOUR_SIGNAL_SPECIAL_AND:four_sp_and_2.C
+C => XOR_2:gate_XOR_2.B
+C => FOUR_SIGNAL_SPECIAL_AND:four_sp_and_1.C
+D => FOUR_SIGNAL_SPECIAL_AND:four_sp_and_1.D
+D => FOUR_SIGNAL_SPECIAL_AND:four_sp_and_2.D
+E_n => FOUR_SIGNAL_SPECIAL_AND:four_sp_and_1.B
+E_n => FOUR_SIGNAL_SPECIAL_AND:four_sp_and_2.B
+Y1 <= FOUR_SIGNAL_SPECIAL_AND:four_sp_and_1.Y
+Y0 <= FOUR_SIGNAL_SPECIAL_AND:four_sp_and_2.Y
+
+
+|DUT|four_to_two_encoder:add_instance|XOR_2:gate_XOR_1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_to_two_encoder:add_instance|XOR_2:gate_XOR_2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_to_two_encoder:add_instance|FOUR_SIGNAL_SPECIAL_AND:four_sp_and_1
+A => Y.IN0
+B => Y.IN1
+C => Y.IN1
+D => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_to_two_encoder:add_instance|FOUR_SIGNAL_SPECIAL_AND:four_sp_and_2
+A => Y.IN0
+B => Y.IN1
+C => Y.IN1
+D => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,24 @@
+|DUT
+input_vector[0] => OR_with_NOR:add_instance.B
+input_vector[1] => OR_with_NOR:add_instance.A
+output_vector[0] <= OR_with_NOR:add_instance.OUTPUT
+
+
+|DUT|OR_with_NOR:add_instance
+A => NOR_2:NOR1.A
+B => NOR_2:NOR1.B
+OUTPUT <= NOR_2:NOR2.Y
+
+
+|DUT|OR_with_NOR:add_instance|NOR_2:NOR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|OR_with_NOR:add_instance|NOR_2:NOR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

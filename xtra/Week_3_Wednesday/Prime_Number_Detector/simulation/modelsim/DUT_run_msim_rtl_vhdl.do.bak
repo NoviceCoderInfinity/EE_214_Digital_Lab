@@ -1,0 +1,11 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/anupa/Desktop/IIT LECTURES/Year 2/EE 214/xtra/Week_3_Friday/Prime_Number_Detector/Gates.vhdl}
+vcom -93 -work work {C:/Users/anupa/Desktop/IIT LECTURES/Year 2/EE 214/xtra/Week_3_Friday/Prime_Number_Detector/DUT.vhdl}
+vcom -93 -work work {C:/Users/anupa/Desktop/IIT LECTURES/Year 2/EE 214/xtra/Week_3_Friday/Prime_Number_Detector/Prime_Number_Detector.vhd}
+

@@ -1,0 +1,70 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity led_sw is
+	port(swt ,clk: in std_logic ; 
+			leds : out std_logic_vector(7 downto 0));
+end entity;
+
+architecture str of led_sw is
+
+	signal led : std_logic_vector(7 downto 0);
+	
+	component clock_divider is
+	port(clk_in : in std_logic ; n : in integer;
+			clk_out : out std_logic);
+	end component;
+	
+	component clock_divider1 is
+	port(clk_1  : in std_logic ; n : integer;
+			clk_out : out std_logic);
+	end component;
+	
+	signal a,c,d,e,f,g,h: std_logic;
+begin
+	cd1 : clock_divider1 port map(clk,25000000,a);
+	cd3 : clock_divider1 port map(clk,50000000,c);
+	cd4 : clock_divider1 port map(clk,100000000,d);
+	cd5 : clock_divider1 port map(clk,200000000,e);
+	cd6 : clock_divider1 port map(clk,400000000,f);
+	cd7 : clock_divider1 port map(clk,800000000,g);
+	cd8 : clock_divider1 port map(clk,1600000000,h);
+	led_s : process(swt)
+	begin
+	if(swt = '0') then
+		led(0) <= a;
+		led(2) <= a;
+		led(4) <= a;
+		led(6) <= a;
+		led(1) <= not a;
+		led(3) <= not a;
+		led(5) <= not a;
+		led(7) <= not a;
+	end if;
+	if(swt = '1') then
+		if(unsigned(led) < 51)  then 
+		
+		led(0) <= a;
+		led(1) <= c;
+		led(2) <= d;
+		led(3) <= e;
+		led(4) <= f;
+		led(5) <=  g;
+		led(6) <= '0';
+		led(7) <= '0';
+		
+		end if;
+	end if;
+	
+	end process;
+	
+	
+end str;
+	
+
+		
+		
+		
+	
+		

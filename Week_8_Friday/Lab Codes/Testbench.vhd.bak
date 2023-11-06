@@ -1,0 +1,31 @@
+library std;
+use std.textio.all;
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Testbench is
+end entity;
+
+architecture Struct of Testbench is
+
+	component Clock_divider is
+		port(clk_500: in std_logic ; n : in integer ;
+			clk_out : out std_logic);
+	end component;
+	
+	signal D_CLK: std_logic :='0';
+	signal clk_out: std_logic;
+	signal n: integer;
+	
+begin
+	only_process: process(D_CLK)
+	begin
+		D_CLK <= not D_CLK after 20 ns;		
+	end process;
+		 
+	 dut_instance: Clock_divider 
+     	port map(clk_500 => D_CLK, n => n, clk_out => clk_out);
+	 
+	
+end Struct;

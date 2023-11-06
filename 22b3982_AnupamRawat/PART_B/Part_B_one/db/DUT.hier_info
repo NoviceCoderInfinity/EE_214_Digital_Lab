@@ -1,0 +1,35 @@
+|DUT
+input_vector[0] => P_B_one:add_instance.S
+input_vector[1] => P_B_one:add_instance.R
+input_vector[2] => P_B_one:add_instance.Q
+input_vector[3] => P_B_one:add_instance.P
+output_vector[0] << P_B_one:add_instance.S1
+output_vector[1] << P_B_one:add_instance.R1
+output_vector[2] << P_B_one:add_instance.Q1
+output_vector[3] << P_B_one:add_instance.P1
+
+
+|DUT|P_B_one:add_instance
+P => P1.IN0
+Q => P1.IN0
+Q => P1.IN0
+Q => Q1.IN0
+Q => Q1.IN1
+R => P1.IN1
+R => Q1.IN0
+R => R1.IN0
+R => P1.IN1
+R => Q1.IN1
+R => R1.IN0
+S => P1.IN1
+S => Q1.IN1
+S => R1.IN1
+S => Q1.IN1
+S => R1.IN1
+S => S1.DATAIN
+P1 <= P1.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+R1 <= R1.DB_MAX_OUTPUT_PORT_TYPE
+S1 <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+

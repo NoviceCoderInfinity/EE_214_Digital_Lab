@@ -1,0 +1,542 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Anuj/today/today/simulation/modelsim
+Eand_2
+Z1 w1698230661
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Anuj/today/today/Gates.vhdl
+Z5 FC:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Anuj/today/today/Gates.vhdl
+l0
+L76
+VPO_JC^T^@lf8PH8>Y1Djd0
+!s100 AJN5Z9YSi`92YAL4DAf0n2
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1698232118
+!i10b 1
+Z8 !s108 1698232118.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Anuj/today/today/Gates.vhdl|
+Z10 !s107 C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Anuj/today/today/Gates.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aequations
+R2
+R3
+DEx4 work 5 and_2 0 22 PO_JC^T^@lf8PH8>Y1Djd0
+l81
+L80
+V;n3EB3l7aaVi;U@81^z@m3
+!s100 Y5G99L1eINnZiM;OLicmJ0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ebuffers
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L52
+V]^aBWLDX5;2z0HnGF1FHR1
+!s100 ]kCKml8MmMcCA<Re6J>[F1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 7 buffers 0 22 ]^aBWLDX5;2z0HnGF1FHR1
+l57
+L56
+Vi9bDJ77W8z`l]5D4:H=@82
+!s100 70PBTa>ZaD=B3cM;7A[9_3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edut
+Z13 w1698231377
+R2
+R3
+R0
+Z14 8C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Anuj/today/today/DUT.vhdl
+Z15 FC:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Anuj/today/today/DUT.vhdl
+l0
+L7
+Vl;b^E;:G>8D_hn082a1KF3
+!s100 ETUBgU<Zb0:7>_cd15CTa0
+R6
+31
+Z16 !s110 1698232119
+!i10b 1
+Z17 !s108 1698232119.000000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Anuj/today/today/DUT.vhdl|
+Z19 !s107 C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Anuj/today/today/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 l;b^E;:G>8D_hn082a1KF3
+l20
+L12
+V5XJ?zi;R[^zZhi8YZ5I<c2
+!s100 G1MoXj6XQm2EM>TJFleVX2
+R6
+31
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Pgates
+R2
+R3
+R1
+R0
+R4
+R5
+l0
+L7
+VJ61Y=LNCLCPZ0[GTZ6`jV3
+!s100 Vz7SXPPTf4kUlZ49VPM6k1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehalf_adder
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L153
+VmM=jYoaVPfLBo9@_1z>c52
+!s100 `dE>d<hA:Bk;PF;l<i4:92
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 10 half_adder 0 22 mM=jYoaVPfLBo9@_1z>c52
+l158
+L157
+VJLJ41VA=dF5ii8CFgUIhI2
+!s100 `YFl96hCZ;LHbGm6QU9]_2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Einverter
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L63
+VaNfnWD2EE>]?IV?mQ]cM00
+!s100 mR`iX@XV:Z^m2c@V83H2e2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 8 inverter 0 22 aNfnWD2EE>]?IV?mQ]cM00
+l68
+L67
+VoWdz7Li5<3Jj?LK`9Vn6F3
+!s100 `^K`EXj_DGU_I8]]khjPi0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enand_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L87
+VD7894Z^ojW;j@B6B9Q;`z2
+!s100 @W1Zh<>X1m^Ll4BCg17ZW3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 nand_2 0 22 D7894Z^ojW;j@B6B9Q;`z2
+l92
+L91
+VInL79Ad4BoOl<PE_19N`h1
+!s100 5hcG07^J7M[e@Z;7V0Vj83
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L119
+VE6MDa?E:DlFSESZ[haZc30
+!s100 fG0jMCQZHYiAaSZ4Xj5740
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 nor_2 0 22 E6MDa?E:DlFSESZ[haZc30
+l124
+L123
+V:CTLiQTLGk7NKa]NIjd`;2
+!s100 30TEjJ=kd72fZbPA@o@Qg1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L98
+VWmie^cE<HQBLZ6S0Z[1?C1
+!s100 [2Peel7<Qg1DHI2[z^_Rh1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 4 or_2 0 22 Wmie^cE<HQBLZ6S0Z[1?C1
+l103
+L102
+V[nEkU^T;k]m5e>2d6m]gM0
+!s100 V85K5MNZm^e>mB^;ZCi380
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eor_3
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L108
+V<mIlGZaVeFCnFmDhKHFWe2
+!s100 f=HT^Y=FCKOCc`iF2DS@n3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 4 or_3 0 22 <mIlGZaVeFCnFmDhKHFWe2
+l113
+L112
+VM95hCg9:8JXen>>KW@_6F3
+!s100 5dM5chea<LV7R@eZA=HC@2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ereading_graph
+Z20 w1698231653
+Z21 DPx4 work 5 gates 0 22 J61Y=LNCLCPZ0[GTZ6`jV3
+Z22 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z23 8C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Anuj/today/today/reading.vhdl
+Z24 FC:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Anuj/today/today/reading.vhdl
+l0
+L6
+VCmYgAlZNa>C3PlPfbEfH^2
+!s100 WNl76Ta46o_C2LYEG=7NW3
+R6
+31
+R16
+!i10b 1
+R17
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Anuj/today/today/reading.vhdl|
+Z26 !s107 C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Anuj/today/today/reading.vhdl|
+!i113 1
+R11
+R12
+Abhv
+R21
+R22
+R2
+R3
+DEx4 work 13 reading_graph 0 22 CmYgAlZNa>C3PlPfbEfH^2
+l14
+L13
+VaB6oH03oGBaZT`0hIGl0@0
+!s100 [_Tk>QWYZc1:[m;AeR8eX3
+R6
+31
+R16
+!i10b 1
+R17
+R25
+R26
+!i113 1
+R11
+R12
+Etestbench
+Z27 w1698230660
+R3
+R2
+R0
+Z28 8C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Anuj/today/today/Testbench.vhdl
+Z29 FC:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Anuj/today/today/Testbench.vhdl
+l0
+L7
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+R16
+!i10b 1
+R17
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Anuj/today/today/Testbench.vhdl|
+Z31 !s107 C:/Users/anupa/OneDrive - Indian Institute of Technology Bombay/Desktop/IIT LECTURES/Year 2/EE 214/Anuj/today/today/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+l69
+L9
+VHH0IWD`nmmQA153_beJ9<2
+!s100 :S?i?aA`W;A3_?fFXY<zO2
+R6
+31
+R16
+!i10b 1
+R17
+R30
+R31
+!i113 1
+R11
+R12
+Exnor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L142
+VPQ3?A12jR[E_>l9IkShzX0
+!s100 P<H=Zdb9moY>V2NMEloEL3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 xnor_2 0 22 PQ3?A12jR[E_>l9IkShzX0
+l147
+L146
+VhE7iPM2ZFb@@D8@H5`EjX3
+!s100 QDCIJ;nlT<ONW9K2S`XK[1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Exor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L131
+V3?_86lC`GJ^V]ZB6S8gJE0
+!s100 >C6ja?F1XS<lYZ:jRaBCl3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 xor_2 0 22 3?_86lC`GJ^V]ZB6S8gJE0
+l136
+L135
+VXkYYb959J=GK]fVe9T[4;0
+!s100 UE[8B5@MI7Sb2mVJMWz:22
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

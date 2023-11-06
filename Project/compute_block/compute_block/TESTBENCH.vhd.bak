@@ -1,0 +1,23 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity TESTBENCH is
+end entity;
+
+architecture struct of TESTBENCH is
+ component compute is
+ port(word1 : in std_logic_vector(12 downto 0);
+	   u1 : in std_logic;
+		sw1, dw1 : in std_logic_vector(8 downto 0);
+		
+		out_word1: out std_logic_vector(19 downto 0));
+ end component compute;
+ 
+ signal output : std_logic_vector(19 downto 0);
+begin
+ compute : compute port map(word1 => "0101000001000",
+                            u1 => '1',
+									 sw1 => "011",
+									 dw1 => "110",
+									 out_word1 => output);
+end architecture struct;

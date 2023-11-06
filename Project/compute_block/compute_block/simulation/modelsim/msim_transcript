@@ -1,0 +1,80 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do bellman_ford_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/user/Desktop/EE214 project/bellman_ford_vhdl/compute_module.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:02:57 on Oct 27,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/user/Desktop/EE214 project/bellman_ford_vhdl/compute_module.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity compute_module
+# -- Compiling architecture struct of compute_module
+# End time: 19:02:57 on Oct 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/user/Desktop/EE214 project/bellman_ford_vhdl/compute.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:02:57 on Oct 27,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/user/Desktop/EE214 project/bellman_ford_vhdl/compute.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity compute
+# -- Compiling architecture struct of compute
+# End time: 19:02:57 on Oct 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/user/Desktop/EE214 project/bellman_ford_vhdl/TESTBENCH.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:02:57 on Oct 27,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/user/Desktop/EE214 project/bellman_ford_vhdl/TESTBENCH.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TESTBENCH
+# -- Compiling architecture struct of TESTBENCH
+# ** Warning: C:/Users/user/Desktop/EE214 project/bellman_ford_vhdl/TESTBENCH.vhd(24): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/user/Desktop/EE214 project/bellman_ford_vhdl/TESTBENCH.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/user/Desktop/EE214 project/bellman_ford_vhdl/TESTBENCH.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/user/Desktop/EE214 project/bellman_ford_vhdl/TESTBENCH.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/user/Desktop/EE214 project/bellman_ford_vhdl/TESTBENCH.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/user/Desktop/EE214 project/bellman_ford_vhdl/TESTBENCH.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/user/Desktop/EE214 project/bellman_ford_vhdl/TESTBENCH.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/user/Desktop/EE214 project/bellman_ford_vhdl/TESTBENCH.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 19:02:57 on Oct 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 8
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  TESTBENCH
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" TESTBENCH 
+# Start time: 19:02:58 on Oct 27,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench(struct)
+# Loading work.compute(struct)
+# Loading ieee.numeric_std(body)
+# Loading work.compute_module(struct)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/compute_instance/module1
+# Break key hit
+# Simulation stop requested.
+# End time: 19:35:17 on Oct 27,2023, Elapsed time: 0:32:19
+# Errors: 0, Warnings: 1

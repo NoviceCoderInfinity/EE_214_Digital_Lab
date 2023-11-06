@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic_1164.all;
+library work;
+use work.Gates.all;
+
+entity eight_to_three_encoder is
+	port( A,B,C,D: in std_logic; Y1,Y0,V: out std_logic);
+end entity eight_to_three_encoder;
+
+architecture Struct of eight_to_three_encoder is
+	
+	entity Encoder4to2 is
+		port( A,B,C,D,En: in std_logic; Y1,Y0: out std_logic);
+	end entity Encoder4to2;
+	
+	signal M,N,O,P : std_logic;
+	
+begin
+ 
+ 
+end Struct;

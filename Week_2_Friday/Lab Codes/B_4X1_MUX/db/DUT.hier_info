@@ -1,0 +1,114 @@
+|DUT
+input_vector[0] => MUX_4x1:add_instance.S1
+input_vector[1] => MUX_4x1:add_instance.S2
+input_vector[2] => MUX_4x1:add_instance.I1
+input_vector[3] => MUX_4x1:add_instance.I2
+input_vector[4] => MUX_4x1:add_instance.I3
+input_vector[5] => MUX_4x1:add_instance.I4
+output_vector[0] << MUX_4x1:add_instance.OUT_PUT
+
+
+|DUT|MUX_4x1:add_instance
+I4 => MUX_2x1:M_2x1_2.I_1
+I3 => MUX_2x1:M_2x1_2.I_0
+I2 => MUX_2x1:M_2x1_1.I_1
+I1 => MUX_2x1:M_2x1_1.I_0
+S2 => MUX_2x1:M_2x1_3.S
+S1 => MUX_2x1:M_2x1_1.S
+S1 => MUX_2x1:M_2x1_2.S
+OUT_PUT <= MUX_2x1:M_2x1_3.Op
+
+
+|DUT|MUX_4x1:add_instance|MUX_2x1:M_2x1_1
+I_0 => AND_2:AND1.A
+I_1 => AND_2:AND2.A
+S => INVERTER:NOT1.A
+S => AND_2:AND2.B
+Op <= OR_2:OR1.Y
+
+
+|DUT|MUX_4x1:add_instance|MUX_2x1:M_2x1_1|INVERTER:NOT1
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|MUX_4x1:add_instance|MUX_2x1:M_2x1_1|AND_2:AND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|MUX_4x1:add_instance|MUX_2x1:M_2x1_1|AND_2:AND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|MUX_4x1:add_instance|MUX_2x1:M_2x1_1|OR_2:OR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|MUX_4x1:add_instance|MUX_2x1:M_2x1_2
+I_0 => AND_2:AND1.A
+I_1 => AND_2:AND2.A
+S => INVERTER:NOT1.A
+S => AND_2:AND2.B
+Op <= OR_2:OR1.Y
+
+
+|DUT|MUX_4x1:add_instance|MUX_2x1:M_2x1_2|INVERTER:NOT1
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|MUX_4x1:add_instance|MUX_2x1:M_2x1_2|AND_2:AND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|MUX_4x1:add_instance|MUX_2x1:M_2x1_2|AND_2:AND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|MUX_4x1:add_instance|MUX_2x1:M_2x1_2|OR_2:OR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|MUX_4x1:add_instance|MUX_2x1:M_2x1_3
+I_0 => AND_2:AND1.A
+I_1 => AND_2:AND2.A
+S => INVERTER:NOT1.A
+S => AND_2:AND2.B
+Op <= OR_2:OR1.Y
+
+
+|DUT|MUX_4x1:add_instance|MUX_2x1:M_2x1_3|INVERTER:NOT1
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|MUX_4x1:add_instance|MUX_2x1:M_2x1_3|AND_2:AND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|MUX_4x1:add_instance|MUX_2x1:M_2x1_3|AND_2:AND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|MUX_4x1:add_instance|MUX_2x1:M_2x1_3|OR_2:OR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

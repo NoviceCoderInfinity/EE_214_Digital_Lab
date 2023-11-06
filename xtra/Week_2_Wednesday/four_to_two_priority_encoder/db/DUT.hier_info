@@ -1,0 +1,66 @@
+|DUT
+input_vector[0] => four_to_two_priority_encoder:add_instance.D
+input_vector[1] => four_to_two_priority_encoder:add_instance.C
+input_vector[2] => four_to_two_priority_encoder:add_instance.B
+input_vector[3] => four_to_two_priority_encoder:add_instance.A
+output_vector[0] << four_to_two_priority_encoder:add_instance.V
+output_vector[1] << four_to_two_priority_encoder:add_instance.Y0
+output_vector[2] << four_to_two_priority_encoder:add_instance.Y1
+
+
+|DUT|four_to_two_priority_encoder:add_instance
+A => OR_2:o1.A
+A => OR_2:o4.A
+A => OR_2:o7.B
+B => OR_2:o1.B
+B => OR_2:o4.B
+B => INVERTER:o5.A
+C => OR_2:o2.B
+C => AND_2:o6.A
+D => OR_2:o2.A
+Y1 <= OR_2:o4.Y
+Y0 <= OR_2:o7.Y
+V <= OR_2:o3.Y
+
+
+|DUT|four_to_two_priority_encoder:add_instance|OR_2:o1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_to_two_priority_encoder:add_instance|OR_2:o2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_to_two_priority_encoder:add_instance|OR_2:o3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_to_two_priority_encoder:add_instance|OR_2:o4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_to_two_priority_encoder:add_instance|INVERTER:o5
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_to_two_priority_encoder:add_instance|AND_2:o6
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|four_to_two_priority_encoder:add_instance|OR_2:o7
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

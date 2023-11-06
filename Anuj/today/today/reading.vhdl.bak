@@ -1,0 +1,30 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+library work;
+use work.Gates.all;
+entity reading_graph is
+	port( 
+        weight1,weight2,weight3,weight4:in std_logic_vector(2 downto 0);
+        start1,final1,start2,final2,start3,final3,start4,final4:in std_logic_vector(12 downto 0);
+		outp: out std_logic(12 downto 0)
+        );
+end reading_graph;
+architecture bhv of reading_graph is
+begin
+    out(12)<=weight4(2) or weight4(1) or weight2(0);
+    out(11)<=weight4(2) or weight3(1) or weight2(0); 
+    out(10)<=weight4(2) or weight3(1) or weight2(0);
+    out(9)<= start4(4) and start3(3) and start2(2) and start1(1);
+    out(8)<= start4(4) and start3(3) and start2(2) and start1(1);
+    out(7)<= start4(4) and start3(3) and start2(2) and start1(1);
+    out(6)<= start4(4) and start3(3) and start2(2) and start1(1);
+    out(5)<= start4(4) and start3(3) and start2(2) and start1(1);
+    out(4)<= final4(4) or final3(3) or final2(2) or final1(1) or final1(0);
+    out(3)<= final4(4) or final3(3) or final2(2) or final1(1) or final1(0);
+    out(2)<= final4(4) or final3(3) or final2(2) or final1(1) or final1(0);
+    out(1)<= final4(4) or final3(3) or final2(2) or final1(1) or final1(0);
+    out(0)<= final4(4) or final3(3) or final2(2) or final1(1) or final1(0);
+end bhv;
+
+    

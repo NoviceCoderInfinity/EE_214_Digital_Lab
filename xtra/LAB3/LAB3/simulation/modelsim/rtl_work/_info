@@ -1,0 +1,540 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/manis/OneDrive/Desktop/LAB3/simulation/modelsim
+Eand_2
+Z1 w1692789288
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/manis/OneDrive/Desktop/LAB3/Gates.vhdl
+Z5 FC:/Users/manis/OneDrive/Desktop/LAB3/Gates.vhdl
+l0
+L59
+VEZ2D<X;^P<mhD?oYSoZVj1
+!s100 I6a;h`m1l>_P==[;fjQ`@1
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1692790744
+!i10b 1
+Z8 !s108 1692790744.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/manis/OneDrive/Desktop/LAB3/Gates.vhdl|
+Z10 !s107 C:/Users/manis/OneDrive/Desktop/LAB3/Gates.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aequations
+R2
+R3
+DEx4 work 5 and_2 0 22 EZ2D<X;^P<mhD?oYSoZVj1
+l64
+L63
+VY^DPFg?I0<FA[cHI4QgS90
+!s100 OS4[mm7YAehBWh`cRa9VV2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edut
+Z13 w1692789290
+R2
+R3
+R0
+Z14 8C:/Users/manis/OneDrive/Desktop/LAB3/DUT.vhdl
+Z15 FC:/Users/manis/OneDrive/Desktop/LAB3/DUT.vhdl
+l0
+L6
+VJz6A:0KlfDfi]=OBHi`zC1
+!s100 1U264I;L4Y?bYoUT31fKl2
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/manis/OneDrive/Desktop/LAB3/DUT.vhdl|
+Z17 !s107 C:/Users/manis/OneDrive/Desktop/LAB3/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 Jz6A:0KlfDfi]=OBHi`zC1
+l16
+L11
+VOiQ<eb2zXE@]e:P_8FZYh2
+!s100 EGInQ8RTm0D=CZhkNKF0U0
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Efour_and
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L138
+V;J3e3h;_^M?cFBYMO@XDN2
+!s100 z?IU13>cc8[P6]C9jcPF42
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 8 four_and 0 22 ;J3e3h;_^M?cFBYMO@XDN2
+l143
+L142
+Ve8j2eLkS;[^GOXh[o:G[m3
+!s100 =KBkf=B2JQNooUFbPWjR>3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Pgates
+R2
+R3
+R1
+R0
+R4
+R5
+l0
+L3
+VP]L2:fd`MEm4=?dPLSa?i1
+!s100 ^3;Xo1BT76l@3BmeOdHPT0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehalf_adder
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L126
+VO5`?Bi9H0U1Y=nH8I;W:;3
+!s100 Mn5Xn5oeBf<SEh^kmV@?K0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 10 half_adder 0 22 O5`?Bi9H0U1Y=nH8I;W:;3
+l131
+L130
+V_D0mFSDk>j4Q=bMR`f7AL1
+!s100 <JI05_lZCaJEIT;X>>cD61
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Einverter
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L47
+VBIOamM3EK06VPlCm?A8YE2
+!s100 ^@6FTiNl<S76gX^6lE=Oo3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 8 inverter 0 22 BIOamM3EK06VPlCm?A8YE2
+l52
+L51
+Vo?3RU59gRd979WAidJl>g0
+!s100 R:j7bZmz@DRP3]];CFDdR0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Elogicgate
+Z18 w1692789524
+Z19 DPx4 work 5 gates 0 22 P]L2:fd`MEm4=?dPLSa?i1
+R2
+R3
+R0
+Z20 8C:/Users/manis/OneDrive/Desktop/LAB3/logic.vhd
+Z21 FC:/Users/manis/OneDrive/Desktop/LAB3/logic.vhd
+l0
+L6
+VzSFKPPL72j_BJmgGV39<M1
+!s100 cl0GOKhP4^fPQQdDaYU^`1
+R6
+31
+Z22 !s110 1692790745
+!i10b 1
+Z23 !s108 1692790745.000000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/manis/OneDrive/Desktop/LAB3/logic.vhd|
+Z25 !s107 C:/Users/manis/OneDrive/Desktop/LAB3/logic.vhd|
+!i113 1
+R11
+R12
+Astruct
+R19
+R2
+R3
+DEx4 work 9 logicgate 0 22 zSFKPPL72j_BJmgGV39<M1
+l12
+L10
+VF0Y7DhMTF0OHYXOzE2`N>1
+!s100 mI61I``CXO0O?kHZeN9HN3
+R6
+31
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R11
+R12
+Enand_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L70
+VcTH:KFODdnT[iCQSNbonf0
+!s100 2RYX9^CFh6J>LDg_n_R`X0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 nand_2 0 22 cTH:KFODdnT[iCQSNbonf0
+l75
+L74
+V>0LJ1Id[NSVG5HS07QAg>3
+!s100 l4gbXa5=bNlo^><@LnR;`3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L92
+V6]fcS^>ff?d?DJ8R<2af>2
+!s100 Ic4o3N<AJ=3YGiKDUH]0n3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 nor_2 0 22 6]fcS^>ff?d?DJ8R<2af>2
+l97
+L96
+V5B^knP:jA[lV:ojk[6n2Z0
+!s100 0TL1^49oGHGoelzZV[?`03
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L81
+Vb1GTefmiRWhzjKL`5763o1
+!s100 ?JFE_HLXWaIm`6;@0?]J;0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 4 or_2 0 22 b1GTefmiRWhzjKL`5763o1
+l86
+L85
+V;9^Ze9>c?KDSkchdnVga01
+!s100 Y_Ce[fd7^O:il?@j2I0Pe1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esix_or
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L149
+Vm1SQ2K59jG:<F6lfCcY=^3
+!s100 e7MfT?D1cgB[V4ga<j1DA2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 six_or 0 22 m1SQ2K59jG:<F6lfCcY=^3
+l154
+L153
+Vdmja1EK18Pad4j`=<7`F13
+!s100 99mm5ZeTIn`:YUVk6[zhF0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etestbench
+Z26 w1692789289
+R3
+R2
+R0
+Z27 8C:/Users/manis/OneDrive/Desktop/LAB3/Testbench.vhdl
+Z28 FC:/Users/manis/OneDrive/Desktop/LAB3/Testbench.vhdl
+l0
+L7
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+R22
+!i10b 1
+R23
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/manis/OneDrive/Desktop/LAB3/Testbench.vhdl|
+Z30 !s107 C:/Users/manis/OneDrive/Desktop/LAB3/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+l69
+L9
+VdBC?eYLVA5;J376h`K:T]2
+!s100 GX9a;`8QI>^IL3?no5bim0
+R6
+31
+R22
+!i10b 1
+R23
+R29
+R30
+!i113 1
+R11
+R12
+Exnor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L115
+VkM``B@@kUjFUEI^?:9G_91
+!s100 =Z<nTFhLU>M`HDzA_F?W<0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 xnor_2 0 22 kM``B@@kUjFUEI^?:9G_91
+l120
+L119
+V093O0V]GNhKB1AC<IL>[e3
+!s100 A=Rb9^m`0MVQ[LP@gjf`U3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Exor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L104
+V3Sl8IEZ:EEQEWGMUJV?h22
+!s100 U>PYgi5MgTJT7Q8>odG:03
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 xor_2 0 22 3Sl8IEZ:EEQEWGMUJV?h22
+l109
+L108
+VeUlcj]QO3FGDcNP:eje]@1
+!s100 nUlR2<;a:EcfU6m`:f;^a3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+-- write the Flipflops packege declaration
+
+entity P_B_one is
+port (
+		B3, B2, B1, B0: in std_logic;
+		Y3, Y2, Y1, Y0: out std_logic
+		);
+end entity P_B_one;
+
+architecture struct of P_B_one is
+
+
+begin
+	D(2) <= ((not Q(0)) and Q(1) and (not Q(2))) or (Q(0) and (not Q(1)) and Q(2));
+	D(1) <= ((not Q(1)) and (not Q(2))) or (Q(0) and (not Q(1)));
+	D(0) <= (Q(2) or ((Q(0)) and (not Q(1))) or ((not Q(0)) and Q(1)));
+	ff1: dff_reset port map (D(2), clock, reset, Q(2));	
+	ff2: dff_reset port map (D(1), clock, reset, Q(1));
+	ff3: dff_set port map (D(0), clock, reset, Q(0));
+	y <= Q(0);
+end struct;

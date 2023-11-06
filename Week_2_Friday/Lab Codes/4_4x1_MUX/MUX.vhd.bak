@@ -1,0 +1,23 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+library work;
+use work.Gates.all;
+
+entity MUX is
+	port ( A(3), B(3), C(3), D(3), sel(1) : in std_logic ;
+			 Y(3) : out std_logic );
+end entity;
+
+architecture Struct of MUX is 
+	
+	Component MUX_4x1 is
+		port (I4, I3, I2, I1, S2, S1: in std_logic ; OUT_PUT: out std_logic);
+	end component MUX_4x1;
+	
+begin
+	MUX0: MUX_4x1 port map (I4 => D(0), I3 => C(0), I2 => B(0), I1 => A(0), S2 => sel(1), S1 => sel(0), OUT_PUT => Y(0));
+	MUX0: MUX_4x1 port map (I4 => D(1), I3 => C(1), I2 => B(1), I1 => A(1), S2 => sel(1), S1 => sel(0), OUT_PUT => Y(1));
+	MUX0: MUX_4x1 port map (I4 => D(2), I3 => C(2), I2 => B(2), I1 => A(2), S2 => sel(1), S1 => sel(0), OUT_PUT => Y(2));
+	MUX0: MUX_4x1 port map (I4 => D(3), I3 => C(3), I2 => B(3), I1 => A(3), S2 => sel(1), S1 => sel(0), OUT_PUT => Y(3));
+end Struct;

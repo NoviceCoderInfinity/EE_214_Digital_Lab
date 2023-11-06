@@ -1,0 +1,39 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity TESTBENCH is
+end entity;
+
+architecture struct of TESTBENCH is
+ component memory_read is
+  port(u1, u2, u3, u4, clk : in std_logic;
+       j1, j2, j3, j4 : in std_logic_vector(4 downto 0);
+	 	 --no_of_edges : in std_logic_vector(8 downto 0);
+		 dw1, dw2, dw3, dw4 : out std_logic_vector(8 downto 0));
+ end component;
+ signal clk : std_logic;
+ signal out1, out2, out3, out4 : std_logic_vector(8 downto 0);
+begin
+
+ clk_process : process
+ begin
+  clk <= '0';
+  wait for 10ms;
+  clk <= '1';
+  wait for 10ms;
+ end process;
+ 
+ memory_read_instance : memory_read port map(clk => clk,
+                                             u1 => '1',
+                                             u2 => '0',
+															u3 => '1',
+															u4 => '1',
+															j1 => "00001",
+															j2 => "00101",
+															j3 => "01101",
+															j4 => "10010",
+															dw1 => out1,
+															dw2 => out2,
+															dw3 => out3,
+															dw4 => out4);
+end architecture struct;
